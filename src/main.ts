@@ -80,3 +80,27 @@ for (let index = 0; index < number.length; index++) {
   }
 }
 console.log('The smallest number in the array is ' + smallest)
+
+let largest = number[0]
+for (let index = 0; index < number.length; index++) {
+  if (number[index] > largest) {
+    largest = number[index]
+  }
+}
+console.log('The largest number in the array is ' + largest)
+
+let arraySum = 0
+for (let index = 0; index < number.length; index++) {
+  arraySum += number[index]
+}
+console.log('The sum of the array values is ' + arraySum)
+
+let average = arraySum / number.length
+console.log('The average of the values in the array is ' + average)
+
+const stats = {
+  smallest: smallest,
+  largest: largest,
+  sum: arraySum,
+  average: average,
+}
