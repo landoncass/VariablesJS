@@ -72,3 +72,11 @@ const number: number[] = [
   34452, 16252, 11441, 20961, 21781, 42878, 34608, 38113, 19316, 24418, 17113,
   22705,
 ]
+
+let smallest = number[0]
+for (let index = 0; index < number.length; index++) {
+  if (number[index] < smallest) {
+    smallest = number[index]
+  }
+}
+console.log('The smallest number in the array is ' + smallest)
