@@ -19,7 +19,44 @@ const secondOperand = window.prompt('Please enter another number')
 //Doing Math
 const sum = parseFloat(firstOperand) + parseFloat(secondOperand)
 console.log(firstOperand + '+' + secondOperand + '=' + sum)
-const difference = parseFloat(secondOperand) + parseFloat(firstOperand)
+const difference = parseFloat(secondOperand) - parseFloat(firstOperand)
 const product = parseFloat(secondOperand) * parseFloat(firstOperand)
 const quotient = parseFloat(secondOperand) / parseFloat(firstOperand)
 const remainder = parseFloat(secondOperand) % parseFloat(firstOperand)
+console.log(
+  parseFloat(secondOperand) +
+    ' plus ' +
+    parseFloat(firstOperand) +
+    ' equals ' +
+    sum
+)
+console.log(
+  parseFloat(secondOperand) +
+    ' minus ' +
+    parseFloat(firstOperand) +
+    ' equals ' +
+    difference
+)
+console.log(
+  parseFloat(secondOperand) +
+    ' divided by ' +
+    parseFloat(firstOperand) +
+    ' equals ' +
+    quotient
+)
+console.log(
+  parseFloat(secondOperand) +
+    ' times ' +
+    parseFloat(firstOperand) +
+    ' equals ' +
+    product
+)
+console.log(
+  'The remainder of ' +
+    parseFloat(secondOperand) +
+    ' and ' +
+    parseFloat(firstOperand) +
+    ' equals ' +
+    remainder
+)
+//Using Arrays
